@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/the_portfolio/static/css/main.25ed7e93.css",
-    "main.js": "/the_portfolio/static/js/main.ed9d90fb.js",
+    "main.css": "/the_portfolio/static/css/main.04496e0a.css",
+    "main.js": "/the_portfolio/static/js/main.15e71709.js",
+    "static/js/787.d16e9580.chunk.js": "/the_portfolio/static/js/787.d16e9580.chunk.js",
     "static/media/realestate.jpg": "/the_portfolio/static/media/realestate.44fd19f4c6872731149c.jpg",
     "static/media/php.png": "/the_portfolio/static/media/php.502c1a901665a0453b5c.png",
     "static/media/workImg.jpeg": "/the_portfolio/static/media/workImg.e4c66be6ae2ae4f83608.jpeg",
@@ -15,11 +16,12 @@
     "static/media/next.png": "/the_portfolio/static/media/next.6db19b31cc0a2f63cff4.png",
     "static/media/javascript.png": "/the_portfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/the_portfolio/index.html",
-    "main.25ed7e93.css.map": "/the_portfolio/static/css/main.25ed7e93.css.map",
-    "main.ed9d90fb.js.map": "/the_portfolio/static/js/main.ed9d90fb.js.map"
+    "main.04496e0a.css.map": "/the_portfolio/static/css/main.04496e0a.css.map",
+    "main.15e71709.js.map": "/the_portfolio/static/js/main.15e71709.js.map",
+    "787.d16e9580.chunk.js.map": "/the_portfolio/static/js/787.d16e9580.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.25ed7e93.css",
-    "static/js/main.ed9d90fb.js"
+    "static/css/main.04496e0a.css",
+    "static/js/main.15e71709.js"
   ]
 }
