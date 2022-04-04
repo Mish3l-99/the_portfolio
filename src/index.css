@@ -1,13 +1,71 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+html{
+    scroll-behavior: smooth;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@layer base{
+    body{
+        @apply font-[Raleway];
+    }
+    li {
+        @apply px-4 cursor-pointer;
+    }
+    .mob-menu{
+        @apply rounded py-3 my-6 text-4xl px-6 hover:bg-[#ff1616] transition duration-300 ease-in-out;
+
+    }
+    .web-menu a{
+        @apply rounded px-3 py-1 text-[17px] hover:bg-[#ff1616] transition duration-300 ease-in-out;
+    }
+    .social-menu{
+        @apply text-[18.5px] w-[142px] h-[40px] flex justify-between items-center ml-[-90px] hover:ml-[-10px] duration-700;
+    }
+    .social-menu a{
+        @apply flex justify-between items-center w-full text-gray-300;
+    }
+    .container{
+        @apply max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full;
+    }
+    .top{
+        @apply font-mono;
+    }
+    .skill-item{
+        @apply shadow-md shadow-[#040c16] hover:scale-110 duration-700 hover:shadow-[#ff1616] flex flex-col justify-center;
+    }
+    .skill-item img{
+        @apply w-14 md:w-20;
+    }
+    .work-item-hover-btn{
+        @apply text-center rounded px-4 py-1 m-2 bg-[#0a192f] text-gray-300 font-bold text-lg hover:scale-105 hover:bg-black duration-500;
+    }
+}
+
+.logo-color{
+    color: #ff1616;
+}
+.content-div {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+}
+
+.content-div:hover {
+    background-image: linear-gradient(
+        to right,
+        rgba(237, 103, 103, 0.8),
+        hsla(6, 67%, 39%, 0.8)   
+    )!important;
+}
+form input:focus{
+    outline: none;
+}
+form textarea:focus{
+    outline: none;
 }
