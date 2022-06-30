@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Logo from "../assets/MN.png";
-import CV from "../assets/CV.pdf";
+import CV from "../assets/Resume.pdf";
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
